@@ -24,6 +24,7 @@ img {
   text-transform: uppercase;
   letter-spacing: .1em;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -450,3 +451,17 @@ img {
   transition: transform .8s, opacity .8s;
 }
 
+/* Formulários */
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0;
+}
+
+ #form-sucesso {
+    color: #31aa39;
+ }
+
+ #form-erro {
+    color: #f64540;
+ }
